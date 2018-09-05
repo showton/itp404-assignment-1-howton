@@ -1,5 +1,19 @@
 h4 {
   margin: 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1,h2,h3,h5,h6 {
+  font-family: 'Roboto Slab', serif;
+}
+
+body {
+  font-family: 'EB Garamond', serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 /* loader */
@@ -69,4 +83,17 @@ h4 {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
+}
+
+.container {
+  float: left;
+  position: relative;
+  width: 100%;
+  clear: both;
+  text-align: center;
+  display: table;
+}
+
+.searchbar {
+  margin-bottom: 2%;
 }

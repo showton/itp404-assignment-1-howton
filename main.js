@@ -3,7 +3,8 @@ $('#submit').on('click', function(event) {
 event.preventDefault();
 $('#results').html('Loading...');
 
-let url = 'https://www.reddit.com/r/' + "javascript" +'.json';
+let subreddit = $('#subreddit').val();
+let url = 'https://www.reddit.com/r/' + subreddit +'.json';
 
 let promise = fetch(url).then(function(response) {
   let promise = response.json();
